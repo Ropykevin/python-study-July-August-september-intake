@@ -34,7 +34,7 @@ employees = ["TechElar", [4, ["Kevin", "Brian", "Alice"]]]
 # 3. Display "Alice" from the list.
 
 # 4. Using a list method, add the number 7 at the end of the outer list.
-
+employees.append(7)
 # 5. Add "David" between "Brian" and "Alice".
 
 # 6. Change the number 4 to 10.
@@ -42,7 +42,10 @@ employees = ["TechElar", [4, ["Kevin", "Brian", "Alice"]]]
 # 7. Change "Kevin" to "James".
 
 # 8. Remove "TechElar" from the list.
-
+employees.remove('TechElar')
+print(employees[0][1])
+employees[0][1].pop()
+print(employees)
 # 9. Remove "Alice" from the nested list.
 
 # 10. Add "Mary" at the beginning of the nested list.
