@@ -1,6 +1,6 @@
             # Nested if 
 # series of if statements inside another statement
-# nested if statement depend on the result of the previous condition
+# nested if statement depends on the result of the previous condition
 
 # if condition1:
     # if condition2:
@@ -13,17 +13,17 @@
 # if they dont have a drivers license print you are not eligible to drive
 # otherwise you are too young to drive
 
-# age=input("Enter your age:")
-# age=int(age)
+age=input("Enter your age:")
+age=int(age)
 
-# if age>=18:
-#     license=input('Do you have a drivers license yes/no?')
-#     if license=='yes':
-#         print('Eligible to drive')
-#     else:
-#         print('not eligible to drive')
-# else:
-#     print("you are too young to drive")
+if age>=18:
+    license=input('Do you have a drivers license yes/no?')
+    if license=='yes':
+        print('Eligible to drive')
+    else:
+        print('not eligible to drive')
+else:
+    print("you are too young to drive")
 
 
 2.  # Write a program that:
